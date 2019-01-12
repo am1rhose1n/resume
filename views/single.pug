@@ -1,0 +1,183 @@
+doctype html
+html(lang='en')
+  // Mirrored from dotrex.co/theme-preview/cards/single.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Mar 2018 15:32:34 GMT
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title John Rex - Web Designer and Front-end Developer
+    //
+      Favicons
+      ==================================================
+    link(rel='shortcut icon', href='img/favicon.png', type='image/x-icon')
+    link(rel='icon', href='img/profile.jpg', type='image/x-icon')
+    //
+      / Favicons
+      ==================================================
+    //
+      >> CSS
+      ==============================================================================
+    link(href='vendor/bootstrap/css/bootstrap.min.css', rel='stylesheet')
+    // Google Web Fonts
+    link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+    // Font Awesome
+    link(href='vendor/font-awesome/css/font-awesome.min.css', rel='stylesheet')
+    // animate.css
+    link(href='vendor/animate.css', rel='stylesheet')
+    // Nivo Lightbox
+    link(href='vendor/nivo-lightbox/nivo-lightbox.css', rel='stylesheet')
+    link(rel='stylesheet', href='vendor/nivo-lightbox/themes/default/default.css', type='text/css')
+    // /Nivo Lightbox
+    // Perfect ScrollBar
+    link(href='vendor/perfect-scrollbar/css/perfect-scrollbar.min.css', rel='stylesheet')
+    // owl carousel
+    link(href='vendor/owl.carousel/owl-carousel/owl.carousel.css', rel='stylesheet')
+    link(href='vendor/owl.carousel/owl-carousel/owl.theme.css', rel='stylesheet')
+    // Main Styles
+    link(href='css/styles.css', rel='stylesheet')
+    //
+      >> /CSS
+      ==============================================================================
+  body
+    //
+      Main Content
+      ==================================================
+    section#body
+      .container
+        // Header
+        .vcard-header.vcard-header-single
+          a.btn.btn-default(href='index-2.html')
+            i.fa.fa-arrow-left
+            |   Back to home
+        // /Header
+        // SECTION: vCard Body
+        #section-home.section-vcardbody.section-home
+          // Content
+          // Blog Posts
+          #blogPost.blog-single-post
+            // post image
+            .post-header-image
+              img(src='img/blog3.jpg', alt='')
+            // /post-image
+            // post title
+            h2.blog-single-title.title-border This is your post title!
+            // /post title
+            // post content
+            .blog-single-content
+              p
+                | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales varius sagittis. Proin a arcu vitae turpis congue facilisis. Quisque a lectus pretium, sagittis augue in, fringilla risus. Quisque elementum, ante a maximus commodo, dui metus imperdiet mi, sit amet tempor lectus erat ac orci. Mauris suscipit rhoncus lobortis. Quisque tincidunt nisi libero. Fusce nec turpis quis enim finibus porta. Donec eget sapien ac leo tempor elementum a at ante. In volutpat placerat quam non cursus. Nunc rutrum nisl at diam maximus tempor. Fusce eget commodo lorem. In et fringilla tellus. Donec vitae laoreet lacus. Donec varius, velit at varius ornare, augue orci posuere enim, in dignissim quam dui nec turpis. Donec molestie sollicitudin elit eget porttitor.
+              p
+                | Sed dignissim facilisis ex. Maecenas mattis velit orci, ut rhoncus tellus dapibus ut. Ut placerat tortor sed felis pellentesque pharetra. Etiam commodo elementum mollis. Donec aliquam sem id odio porttitor sodales id id arcu. Maecenas vulputate dictum nulla, a vestibulum purus varius id. Cras non mollis enim.
+              p
+                | Donec cursus massa sed sapien laoreet, eget vulputate urna interdum. Proin quis neque sem. Curabitur accumsan mollis malesuada. Donec nec ultrices ante. Nam sed elit aliquet, convallis augue in, rhoncus ante. Integer vulputate lectus dui, et dictum magna commodo et. Curabitur scelerisque finibus tortor pellentesque iaculis. Ut varius aliquet suscipit. Praesent commodo quam tempor, volutpat felis ut, imperdiet nulla. Sed eu libero sed nisl semper sagittis. Nunc odio arcu, convallis a nulla nec, egestas auctor lectus. Morbi finibus justo commodo turpis laoreet commodo. Sed auctor vel orci eu tincidunt.
+              p
+                | Vivamus non odio egestas, condimentum nunc nec, venenatis tellus. Morbi tempor sagittis scelerisque. Donec hendrerit dictum lobortis. Nulla eget lacus commodo, malesuada metus sed, faucibus odio. Ut convallis diam eu consequat vehicula. Nulla massa neque, consectetur quis nunc quis, fringilla viverra lorem. Cras auctor at risus pellentesque elementum. Pellentesque odio magna, fringilla non fermentum in, luctus dapibus mauris. Mauris commodo est eget sem maximus, vitae tempor purus facilisis. Cras accumsan diam at sem egestas, eget lobortis quam vestibulum. Sed rutrum interdum dolor, at commodo magna feugiat ac. Integer euismod dignissim feugiat. Aliquam erat volutpat. Vestibulum ac libero sit amet erat molestie pulvinar nec ut urna. Vestibulum dapibus pretium mauris ac porttitor. Aliquam sagittis velit et placerat
+            // /post content
+            // === Blog Comments
+            .blog-comments
+              h2.title2.blog-comments-title
+                i.fa.fa-commenting
+                |   Comments
+              // Comments Form
+              .well
+                h4 Leave a Comment:
+                form
+                  .form-group
+                    textarea.form-control(rows='3')
+                  button.btn.btn-1c(type='submit') Submit
+              hr
+              // /Comments Form
+              // Posted Comments
+              // Comment
+              .media
+                a.pull-left(href='#')
+                  img.media-object(src='img/avatar.png', alt='')
+                .media-body
+                  h4.media-heading
+                    | John Rex
+                    small August 25, 2014 at 9:30 PM
+                  | 			               Comments? I love comments!
+              // /Comment
+              // Comment
+              .media
+                a.pull-left(href='#')
+                  img.media-object(src='img/avatar.png', alt='')
+                .media-body
+                  h4.media-heading
+                    | Homer Simpson
+                    small August 25, 2014 at 9:30 PM
+                  | 							This blog is amazing!
+                  // Nested Comment
+                  .media
+                    a.pull-left(href='#')
+                      img.media-object(src='img/avatar.png', alt='')
+                    .media-body
+                      h4.media-heading
+                        | Margie Simpson
+                        small August 25, 2014 at 9:30 PM
+                      | 			                        We are totally going to blog about these curiosities!
+                  // End Nested Comment
+              // /Comment
+              // Comment
+              .media
+                a.pull-left(href='#')
+                  img.media-object(src='img/avatar.png', alt='')
+                .media-body
+                  h4.media-heading
+                    | Joey Ramone
+                    small August 25, 2014 at 9:30 PM
+                  | 			             	OMGI love to read it so much!
+              // /Comment
+            // === /Blog Comments
+          // /Blog Posts
+          // /Content
+          // Footer
+          .vcard-footer
+            a.btn.btn-default(href='index-2.html')
+              i.fa.fa-arrow-left
+              |   Back to home
+          // /footer
+        // /SECTION: vCard Body
+    //
+      /Main Content
+      ==================================================
+    //
+      >> JS
+      ==============================================================================
+    // jQuery (necessary for Bootstrap's JavaScript plugins)
+    script(src='vendor/jquery.min.js')
+    // Include all compiled plugins (below), or include individual files as needed
+    script(src='vendor/bootstrap/js/bootstrap.min.js')
+    script(src='vendor/validate.js')
+    // Holder JS
+    script(src='vendor/holder.js')
+    // Modal box
+    script(src='vendor/nivo-lightbox/nivo-lightbox.min.js')
+    // /Modal Box
+    // Perfect ScrolBar
+    script(src='vendor/perfect-scrollbar/js/min/perfect-scrollbar.jquery.min.js')
+    // /Perfect ScrolBar
+    // Owl Caroulsel
+    script(src='vendor/owl.carousel/owl-carousel/owl.carousel.js')
+    // Google Maps
+    script(src='http://maps.google.com/maps/api/js?sensor=false')
+    // Cross-browser
+    script(src='vendor/cross-browser.js')
+    // Main Scripts
+    script(src='js/main.js')
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-68192027-1', 'auto');
+      ga('send', 'pageview');
+    // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    // WARNING: Respond.js doesn't work if you view the page via file://
+    //if lt IE 9
+      script(src='vendor/html5shiv.js')
+      script(src='vendor/respond.min.js')
+    //
+      >> /JS
+      =============================================================================
+  // Mirrored from dotrex.co/theme-preview/cards/single.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Mar 2018 15:32:36 GMT

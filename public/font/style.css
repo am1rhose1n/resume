@@ -1,0 +1,17 @@
+/*  Ronakweb.com  */
+
+@font-face {
+    font-family: 'yekan';
+    src: url(./Yekan.eot);
+    src: url(./Yekan.eot?#iefix) format("embedded-opentype"), url(./Yekan.woff) format("woff"), url(./Yekan.ttf) format("truetype"), url(./Yekan.svg#BYekan) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button, input, label {
+    font-family: yekan !important
+}
+
+.table-responsive {
+    overflow-y: hidden
+}
